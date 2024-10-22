@@ -1,0 +1,62 @@
+[
+  {
+    "leadId": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "source": "Google"
+  },
+  {
+    "leadId": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "source": "Facebook"
+  },
+  {
+    "leadId": 3,
+    "name": "Michael Johnson",
+    "email": "michael.johnson@example.com",
+    "source": "LinkedIn"
+  },
+  {
+    "leadId": 4,
+    "name": "Emily Davis",
+    "email": "emily.davis@example.com",
+    "source": "Twitter"
+  },
+  {
+    "leadId": 5,
+    "name": "David Brown",
+    "email": "david.brown@example.com",
+    "source": "Instagram"
+  },
+  {
+    "leadId": 6,
+    "name": "Sarah Wilson",
+    "email": "sarah.wilson@example.com",
+    "source": "Email"
+  },
+  {
+    "leadId": 7,
+    "name": "James Taylor",
+    "email": "james.taylor@example.com",
+    "source": "Referral"
+  },
+  {
+    "leadId": 8,
+    "name": "Jessica Lee",
+    "email": "jessica.lee@example.com",
+    "source": "Event"
+  },
+  {
+    "leadId": 9,
+    "name": "Robert Garcia",
+    "email": "robert.garcia@example.com",
+    "source": "SEO"
+  },
+  {
+    "leadId": 10,
+    "name": "Linda Martinez",
+    "email": "linda.martinez@example.com",
+    "source": "AdWords"
+  }
+]

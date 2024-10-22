@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Campaign 1",
+    "startDate": "2024-10-01",
+    "endDate": "2024-10-20",
+    "budget": 1000,
+    "status": "active"
+  },
+  {
+    "name": "Campaign 2",
+    "startDate": "2024-10-05",
+    "endDate": "2024-10-25",
+    "budget": 2000,
+    "status": "active"
+  },
+  {
+    "name": "Campaign 3",
+    "startDate": "2024-09-15",
+    "endDate": "2024-09-30",
+    "budget": 1500,
+    "status": "completed"
+  },
+  {
+    "name": "Campaign 4",
+    "startDate": "2024-11-01",
+    "endDate": "2024-11-15",
+    "budget": 2500,
+    "status": "upcoming"
+  },
+  {
+    "name": "Campaign 5",
+    "startDate": "2024-08-10",
+    "endDate": "2024-08-25",
+    "budget": 1200,
+    "status": "completed"
+  },
+  {
+    "name": "Campaign 6",
+    "startDate": "2024-10-10",
+    "endDate": "2024-10-30",
+    "budget": 3000,
+    "status": "active"
+  },
+  {
+    "name": "Campaign 7",
+    "startDate": "2024-09-01",
+    "endDate": "2024-09-15",
+    "budget": 800,
+    "status": "completed"
+  },
+  {
+    "name": "Campaign 8",
+    "startDate": "2024-12-01",
+    "endDate": "2024-12-20",
+    "budget": 4000,
+    "status": "upcoming"
+  },
+  {
+    "name": "Campaign 9",
+    "startDate": "2024-10-20",
+    "endDate": "2024-11-10",
+    "budget": 1800,
+    "status": "active"
+  },
+  {
+    "name": "Campaign 10",
+    "startDate": "2024-11-05",
+    "endDate": "2024-11-25",
+    "budget": 2200,
+    "status": "upcoming"
+  }
+]
