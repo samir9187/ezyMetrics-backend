@@ -19,7 +19,7 @@ async function runETLProcess() {
       status: campaign.status.toLowerCase(),
     }));
 
-    console.log("Formatted Data:", formattedLeads, formattedCampaigns);
+    // console.log("Formatted Data:", formattedLeads, formattedCampaigns);
 
     await LeadModel.insertMany(formattedLeads);
     await CampaignModel.insertMany(formattedCampaigns);
@@ -27,26 +27,30 @@ async function runETLProcess() {
     console.log("Data successfully loaded into MongoDB!");
 
     if (formattedLeads.length > 150) {
-      await notifyHighLeadCount(formattedLeads.length);
+      await notifyHighCount(formattedLeads.length, "lead");
+    }
+
+    if (formattedCampaigns.length > 150) {
+      await notifyHighCount(formattedCampaigns.length, "campaign");
     }
   } catch (err) {
     console.error("ETL process encountered an error:", err);
   }
 }
 
-async function notifyHighLeadCount(count) {
+async function notifyHighCount(count, type) {
   const emailOptions = {
     from: process.env.EMAIL_USER,
     to: "darrensammy1000@example.com",
-    subject: "EzyMetrics Alert: High Lead Count Detected",
-    text: `Alert! The current lead count is: ${count}.`,
+    subject: `EzyMetrics Alert: High ${type} Count Detected`,
+    text: `Alert! The current ${type} count is: ${count}.`,
   };
 
   try {
     await mailer(emailOptions);
-    console.log("Notification email sent successfully!");
+    console.log(`Notification email sent successfully for ${type} count!`);
   } catch (err) {
-    console.error("Error sending notification email:", err);
+    console.error(`Error sending notification email for ${type} count:`, err);
   }
 }
 

@@ -68,5 +68,40 @@
     "endDate": "2024-11-25",
     "budget": 2200,
     "status": "upcoming"
+  },
+  {
+    "name": "Campaign 11",
+    "startDate": "2024-10-15",
+    "endDate": "2024-10-31",
+    "budget": 2800,
+    "status": "active"
+  },
+  {
+    "name": "Campaign 12",
+    "startDate": "2024-11-10",
+    "endDate": "2024-11-30",
+    "budget": 3500,
+    "status": "upcoming"
+  },
+  {
+    "name": "Campaign 13",
+    "startDate": "2024-08-01",
+    "endDate": "2024-08-20",
+    "budget": 1600,
+    "status": "completed"
+  },
+  {
+    "name": "Campaign 14",
+    "startDate": "2024-09-20",
+    "endDate": "2024-10-05",
+    "budget": 2400,
+    "status": "completed"
+  },
+  {
+    "name": "Campaign 15",
+    "startDate": "2024-10-25",
+    "endDate": "2024-11-15",
+    "budget": 3100,
+    "status": "active"
   }
 ]
